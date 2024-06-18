@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Libre Baskerville", "Playfair Display";
+    
+
+}
+
+header {
+    background-color: rgb(0, 0, 149);
+    color: white;
+    margin: 10px;
+}
+
+main {
+    background-color: #C9C7C7;
+    margin: 10px;
+}
+
+footer {
+    background-color: rgb(0, 0, 149);
+    text-align: center;
+    color: #FDFFFC;
+}
+
+#site-name{
+    background-color: #FDFFFC;
+    margin: 10px;
+
+}
+
+#site-purpose{
+    background-color: #FDFFFC;
+    margin: 10px;
+}
+
+#scenarios{
+    background-color: #FDFFFC;
+    margin: 10px;
+}
+
+#color-schema{
+    background-color: white;
+    margin: 10px;
+}
+
+#typography {
+    background-color: white;
+    margin: 10px;
+}
+
+#wireframe{
+    background-color: white;
+    margin: 10px;
+}
+
+footer{
+    margin: 10px;
+}
+
+body h2 {
+    margin: 8px;
+    font-family: Libre Baskerville;
+    text-decoration: underline #F1D302;
+}
+
+body p {
+    margin: 8px;
+    font-family: Playfair Display; 
+
+}
