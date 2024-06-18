@@ -25,6 +25,7 @@ footer {
     background-color: rgb(0, 0, 149);
     text-align: center;
     color: #FDFFFC;
+    margin: 10px;
 }
 
 #site-name{
@@ -57,10 +58,7 @@ footer {
     background-color: white;
     margin: 10px;
 }
-
-footer{
-    margin: 10px;
-}
+    
 
 body h2 {
     margin: 8px;
