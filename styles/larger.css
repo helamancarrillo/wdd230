@@ -7,13 +7,34 @@
         grid-template-columns: 2fr 1fr;
     }
 
-    .navbar ul {
+    .navbar {
         display: flex;
+        flex-direction: row;
  
     }  
     
-    .navbar ul li {
+    .navbar li {
         flex: 1 1 100% ;
     }
-    
+
+
+    /* nAV STUFF */ 
+    #menu {
+		display: none; 
+	}
+
+    ul.navbar, ul.navbar.open{
+        display: flex;
+    }
+
+    nav {
+        grid-template-rows: 1fr;
+    }
+
+     /*.navbar a {
+		display: block;
+		
+	}*/ 
+
 }
+
