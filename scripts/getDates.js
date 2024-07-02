@@ -22,6 +22,7 @@ const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
 const sections = document.querySelector(".card");
 const title1 = document.querySelector("#title1");
+//const darkHeadFoot = document.querySelector(".darkHeadFoot"); future enhancement
 
 
 modeButton.addEventListener("click", () => {
@@ -31,6 +32,7 @@ modeButton.addEventListener("click", () => {
         title1.style.color = "#fff";
 		//main.style.color = "#fff";
 		modeButton.textContent = "◑";
+		//darkHeadFoot.style.background = "#fff";
 
 	} else {
 		main.style.background = "#fff";
@@ -38,6 +40,7 @@ modeButton.addEventListener("click", () => {
 		modeButton.textContent = "◐";
         sections.style.color = "#000";
         title1.style.color = "#000";
+		//darkHeadFoot.style.background = "#013e4f";
 
 	}
 });
