@@ -31,6 +31,10 @@
         grid-template-rows: 1fr;
     }
 
+    .hero span{
+        font-size: 1.5rem;
+    }
+
      /*.navbar a {
 		display: block;
 		
