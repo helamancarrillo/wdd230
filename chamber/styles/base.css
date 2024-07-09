@@ -21,8 +21,10 @@ header {
     align-items: center;
 }
 
-span{
-    text-align: center;
+header span{
+    position: absolute;
+    left: 12vw;
+    
 }
 
 main {
@@ -194,8 +196,63 @@ div{
     justify-self: center;
     padding: 10px;
 
+
+
 }
 
+/* Discover Page Stuff */
+
+#discover-main{
+    background-color: rgb(220, 221, 225);
+    
+}
+
+#discover-main h1 {
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    
+}
+
+.grid .card{
+    background-color: rgb(220, 221, 225);
+    text-align: center;
+    margin: 10px;
+
+}
+
+.side-items{
+    margin: 20px;
+    border: rgb(14, 33, 112) dashed;
+}
+
+.side-items p {
+    margin: 10px;
+}
+
+
+#-sidebar1 img{
+    max-width: 100%;
+    height: auto;
+
+}
+
+.photos{
+    margin: 30px;
+    
+}
+
+figure img{
+    align-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+figure figcaption{
+    margin: 30px;
+}
 
 
 

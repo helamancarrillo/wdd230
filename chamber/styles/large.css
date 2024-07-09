@@ -43,7 +43,7 @@
 		
 	}*/
     
-    /* MAIN SECTION */ 
+    /* MAIN SECTION HOME PAGE */ 
 
 
     #box2 {
@@ -85,5 +85,18 @@
         justify-content: space-around;
 
     }
+
+    /* MAIN SECTION DISCOVER PAGE */ 
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: auto auto auto auto auto auto ;
+        
+    }
+
+
+
+
 
 }

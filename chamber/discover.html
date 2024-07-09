@@ -27,6 +27,32 @@
         content="https://d26m4ikkajfmz.cloudfront.net/wp-content/uploads/2023/09/Tegucigalpa-FM-Honduras-696x414.jpg">
     <meta property="og:url" content="https://helamancarrillo.github.io/wdd230/chamber">
 
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['AI',     30],
+          ['Ecommerce',      23],
+          ['Baking',  15],
+          ['Energy', 29],
+          ['Legal',    28]
+        ]);
+
+        var options = {
+          title: 'Types of Business'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
 
 </head>
 <body>
@@ -49,9 +75,77 @@
         </ul>
     </nav>
 
-    <main>
+    <main id="discover-main"> 
 
-        
+        <h1> Learn with the best! </h1>
+
+        <div class="grid">
+
+            <div class="card" id="side">
+
+                <div class="side-items" id="-sidebar1">
+
+                    <img src="images/sandbox-image-3.webp" alt="Sandbox Image" loading="lazy">
+                    <p>Prepare for the next <strong>Sandbox Program</strong></p>
+
+
+                </div>
+
+                <div class="side-items" id="-sidebar2">
+                    <div id="piechart" style="width: 100%; height: auto; "> </div>
+
+                </div>
+
+
+                <div class="side-items">
+
+                    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=UTC&bgcolor=%23ffffff&showTitle=0&showTz=0" style="border:solid 1px #777" width="100%" height="auto" ></iframe>
+
+                </div>
+                
+
+            </div>
+
+            <div class="card" id="sude">
+
+
+                <figure class="photos">
+                    <img src="images/sandbox-building-3.webp" alt="Sandbox building" width="800" height="400">
+                    <figcaption>Sandbox Building</figcaption>
+                    <p>Thee first Chamber of Commerce of Latin America valued more than 1 million dolars</p>
+                </figure>
+
+                <figure class="photos">
+                    <img src="images/image-photos-4.webp" alt="Sandbox building" width="800" height="400">
+                    <figcaption>International Department</figcaption>
+                    <p>Check out our offices in the most prominent cities in the world</p>
+                </figure>
+                <figure class="photos">
+                    <img src="images/image-photos-3.webp" alt="Sandbox building" width="800" height="400">
+                    <figcaption> IT Department </figcaption>
+                    <p>The first AI Lab in Latin America is found in MDC Chamber of Commerce</p>
+                </figure>
+                <figure class="photos">
+                    <img src="images/image-photos-5.webp" alt="Sandbox building" width="800" height="400">
+                    <figcaption>Foreign Offices</figcaption>
+                    <p>Check out our offices in the most prominent cities in the world</p>
+                </figure>
+                <figure class="photos">
+                    <img src="images/image-photos-6.webp" alt="Sandbox building" width="800" height="400">
+                    <figcaption> Stacks </figcaption>
+                    <p>More than 100 years of experience in business procedures</p>
+                </figure>
+                <figure class="photos">
+                    <img src="images/image-photos-9.webp" alt="Sandbox building" width="800" height="450">
+                    <figcaption>Relationships</figcaption>
+                    <p>Strong net of members over the world</p>
+                </figure>
+                
+                
+            </div>
+
+        </div>
+
 
     </main>
 
