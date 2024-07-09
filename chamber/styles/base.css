@@ -219,7 +219,7 @@ div{
 .grid .card{
     background-color: rgb(220, 221, 225);
     text-align: center;
-    margin: 10px;
+    margin: 10px; 
 
 }
 
@@ -240,7 +240,7 @@ div{
 }
 
 .photos{
-    margin: 30px;
+    margin: 20px;
     
 }
 
@@ -252,6 +252,17 @@ figure img{
 
 figure figcaption{
     margin: 30px;
+}
+
+#title-discover{ 
+    padding: 30px;
+    color: rgb(14, 33, 112);
+    
+}
+
+#local-storage{
+    padding: 20px;
+    background-color: #fff;
 }
 
 
