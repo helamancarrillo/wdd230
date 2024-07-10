@@ -97,7 +97,15 @@
 
     .hover:hover {
         opacity: .7;
+        /*transition: all 1s ease 0s;*/
+        transition-behavior: normal;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+        transition-property: all;
+
     }
+}
 
     
 
@@ -109,4 +117,4 @@
 
 
 
-}
+
