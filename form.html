@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Helaman Carrillo - WDD 230 - Web Frontend Development</title>
+    <meta name="description"
+        content="Course Home Page - Helaman Carrillo - Demonstrate the necessary skills to build web pages.">
+    <meta name="author" content="Helaman Carrillo">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/larger.css">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/form.css"> 
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <meta property="og:title" content="MDC Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:description"
+        content="Offering opportunities to enpower entrepreneurs with a constant training, initiatives and net of experience entrepreneurs.">
+    <meta property="og:image"
+        content="https://d26m4ikkajfmz.cloudfront.net/wp-content/uploads/2023/09/Tegucigalpa-FM-Honduras-696x414.jpg">
+    <meta property="og:url" content="https://helamancarrillo.github.io/wdd230/">
+    <meta name="twitter:card" content="summary_large_image">
+
+</head>
+
+<body>
+    <header class="darkHeadFoot">
+
+        <!--<img src="images/darmoke.svg" alt="dark mode" id="darkButton" class="change" >
+        <img src="images/seconDark.svg" alt=" second dark mode" class="secondchange" > -->
+
+        <img src="images/Helaman_Profile_def.webp" loading="lazy" alt="Helaman Profile" width="80" height="90">
+        <span> <strong>Helaman Carrillo</strong> </span>
+        <div id="mode">◐</div>
+
+    </header>
+
+
+    <nav id="animateme">
+
+        <button id="menu" title="Hamburguer Button"></button>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="https://helamancarrillo.github.io/wdd230/index.html">Chamber</a></li>
+            <li><a href="https://helamancarrillo.github.io/wdd230/week01/chamber-site-plan.html">Site Plan</a></li>
+            <li class="current-menu-item"><a href="form.html">Form</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <h1>Course Login</h1>
+
+        <form method="get" action="record.html" class="fw1">
+
+            <fieldset>
+                <legend>Create your account</legend>
+
+
+                <label class="red">Username*<input type="text" title="Enter username" id="userid" name="uname" required></label>
+
+                <label class="red">Password*<input type="password" pattern="[a-zA-Z0-9\s.]{8,}" title="Enter password" id="passid1" name="pass1" required></label>
+
+                <label class="red">Confirm Password*<input type="password" id="passid2" name="pass2" title="Confirm password" required ></label>
+
+                <div id="feedback"></div>
+
+                <label class="red">Email*<input type="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" id="email1" name="email" title="Please enter a valid email address" placeholder="someone@gmail.com" required></label>
+
+                <div id="feedback2"></div>
+
+                <label class="red">Page Rating* 
+                
+                <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    
+                </datalist> 
+                </label>
+                <div id="rangevalue">0</div>
+
+
+            </fieldset> 
+    
+             
+    
+            <input type="submit" value="Login">
+    
+    
+    
+        </form>
+
+
+
+        
+
+    </main>
+
+    <footer class="darkHeadFoot">
+        <p> ©2024 Helaman Carrillo Honduras </p>
+        <p id="lastModified"></p>
+
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/formValidation.js"></script>
+    
+</body>
+
+</html>
