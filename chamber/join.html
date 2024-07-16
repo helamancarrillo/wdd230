@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Join Us Page - MDC Chamber of Commerce</title>
+
+    <meta name="description"
+        content="MDC Home Page - Provide a space where the most essential information of the Chamber is displayed.">
+    <meta name="author" content="Helaman Carrillo">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/MDC-Icon.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/large.css">
+
+    <meta property="og:title" content="MDC Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://d26m4ikkajfmz.cloudfront.net/wp-content/uploads/2023/09/Tegucigalpa-FM-Honduras-696x414.jpg">
+    <meta property="og:url" content="https://helamancarrillo.github.io/wdd230/chamber">
+
+
+</head>
+<body>
+
+    <header>
+
+        <img src="images/MDC-Icon.svg" id="Icon" alt="MDC Chamber Logo">
+        <!--<span>MDC Chamber <br>of Commerce</span> --> 
+
+    
+    </header>
+
+    <nav id="animateme">
+        <button id="menu"></button>
+        <ul class="navbar" >
+            <li ><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li class="current-menu-item"><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    
+
+    <main id="join-main">
+
+        <h1 id="title-join">JOIN US</h1>
+
+        <div class="join-grid">
+            <section class="join-card">
+                <h2>Become a member now</h2>
+
+                <form method="get" action="thankyou.html" class="join-class">
+
+                    <fieldset>
+                        <legend>Create your account</legend>
+        
+        
+                        <label>First Name*<input type="text" title="Enter your first name" id="firstnameid" name="firstname" required></label>
+        
+                        <label>Last name*<input type="text" title="Enter your last name" id="lastnameid" name="last name" required></label>
+        
+                        <label>Mobile Phone Number*<input type="tel" id="mobileid" name="mobile phone number" title="Enter your mobile phone number" placeholder="12344321" required ></label>
+        
+                        <label>Email*<input type="email" id="emailid" name="email" title="Please enter a valid email address" placeholder="someone@gmail.com" required></label>
+       
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Organization</legend>
+
+                        <label>Organization name* <input type="text" title="Enter your organization name" id="org.name" name="organization name" required></label>
+
+                        <label>Title or position<input type="text" pattern="^[A-Za-z\s-]{7,}$" title="Enter your title or position in the organization" id="titleid"   name="title or position"></label>
+
+                        <label>Organization description <textarea name="organization description"   id="org.descripcionid"></textarea></label>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Membership</legend>
+
+                        <label>Membership levels
+                            <select name="plans">
+                                <option value=""> Please Select <!--&#9662;--></option>
+                                <option value="NP Membership"> NP Membership</option>
+                                <option value="Bronze Membership"> Bronze Membership</option>
+                                <option value="Silver Membership"> Silver Membership</option>
+                                <option value="Gold Membership"> Gold Membership</option>
+        
+                            </select>
+                        </label>
+
+
+
+                    </fieldset>
+
+                    <input type="hidden" id="timestamp" name="timestamp" value="">
+            
+                     
+                    <input type="submit" value="JOIN CHAMBER">
+            
+            
+                </form>
+                
+                 
+
+
+            </section>
+            <section class="join-card">
+                <h2>Membership Benefits</h2>
+
+                <div class="center-container">
+
+                    <h3>Golden Membership 🥇</h3> 
+        
+                    <ul>
+                        <li>Free access to travel with the MDC Chamber</li>
+                        <li>Propose your strategy to the MDC Chamber</li>
+                        <li>Insigth knowledge about future projects</li>
+                        <li>Opportunity to become a tutor</li>
+                        <li>Become a committe member</li>
+                        <li>Safety investment</li>
+                        <li>Building access</li>
+                        <li>Daily training</li>
+                        <li>Basic tutoring</li>
+                        <li><strong>Fee: $2000</strong></li>
+                       
+                    </ul>
+
+                </div>
+
+                <div class="center-container">
+
+                    <h3>Silver Membership 🥈</h3> 
+        
+                    <ul>
+                        <li>Propose your strategy to the MDC Chamber</li>
+                        <li>Insigth knowledge about future projects</li>
+                        <li>Opportunity to become a tutor</li>
+                        <li>Become a committe member</li>
+                        <li>Safety investment</li>
+                        <li>Building access</li>
+                        <li>Daily training</li>
+                        <li>Basic tutoring</li>
+                        <li><strong>Fee: $1000</strong></li>
+                    </ul>
+
+                </div>
+
+                <div class="center-container">
+
+                    <h3>Bronze Membership 🥉</h3> 
+        
+                    <ul>
+                        <li>Opportunity to become a tutor</li>
+                        <li>Become a committe member</li>
+                        <li>Safety investment</li>
+                        <li>Building access</li>
+                        <li>Daily training</li>
+                        <li>Basic tutoring</li>
+                        <li><strong>Fee: $500</strong></li>
+                    </ul>
+
+                </div>
+
+                <div class="center-container">
+
+                    <h3>NP Membership 🏅</h3> 
+        
+                    <ul>
+                        <li><strong>For non profit organizations</strong></li>
+                        <li>Building access</li>
+                        <li>Daily training</li>
+                        <li>Basic tutoring</li>
+                        <li><strong>Fee: $0</strong></li>
+                    </ul>
+
+                </div>
+
+                
+                
+                
+            </section>
+
+        </div>
+ 
+
+    </main>
+
+
+    <footer>
+        <p> ©2024 Helaman Carrillo Honduras </p>
+        <p id="lastModified"></p>
+    </footer>
+
+
+    <script src="scripts/nav.js">
+    </script>
+</body>
+</html>

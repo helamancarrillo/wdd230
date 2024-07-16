@@ -98,13 +98,35 @@
     .hover:hover {
         opacity: .7;
         /*transition: all 1s ease 0s;*/
-        transition-behavior: normal;
+        /*transition-behavior: normal;*/
         transition-duration: 1s;
         transition-timing-function: ease;
         transition-delay: 0s;
         transition-property: all;
 
     }
+
+    /* MAIN SECTION JOIN PAGE */ 
+
+    .join-grid{
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        
+
+    }
+
+    .center-container{
+        margin-top: 40px;
+        margin-left: 30% ;
+        /*text-align: center;*/
+         
+    }
+
+   
+
+
+
+
 }
 
     
