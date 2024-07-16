@@ -1,0 +1,14 @@
+{
+    "familyName" : "Johnson",
+    "wardDate" : "11/24/2020",
+    "numberofPeople" : 4, 
+    "visitedbishopric" : true , 
+    "individualMembers" : [
+        {"Father" : "Craig",
+        "Mother" : "Danzel",
+        "Son" : "George",
+        "Daughter" : "Mellany" }
+    ]
+}
+
+
