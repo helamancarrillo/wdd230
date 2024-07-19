@@ -202,6 +202,16 @@ iframe{
     height: auto;
 }
 
+/* Weather Stuff */
+
+figure {
+    text-align: center;
+}
+
+#bullet li{
+    margin: 20px;
+}
+
 
 
 

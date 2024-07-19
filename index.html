@@ -114,13 +114,23 @@
             </section>
             <section class="card">
                 <h2>Information</h2>
-                <p> Tegucigalpa, Honduras ⛰️</p>
-                <p> 🌧️ 17°C - Rainy</p>
+               
+                <p> <span id="current-temp"></span></p>
+
+                <figure>
+                    <img id="weather-icon" src="https://openweathermap.org/img/w/02d.png" alt="Few Clouds">
+                    <figcaption> Few Clouds  </figcaption>
+                </figure>
+
                 <p>
                     <span class="label">📈 Page visits:</span>
                     <span class="visits"></span>
 
                 </p>
+
+                <p> <strong>Tegucigalpa, Honduras</strong></p>
+
+               
             </section>
 
         </div>
@@ -137,8 +147,10 @@
         <p id="lastModified"></p>
 
     </footer>
-    <script src="scripts/getDates.js">
-    </script>
+    <script src="scripts/getDates.js"> </script>
+    <script src="scripts/weatherAPI.js"> </script>
+    <script src="scripts/formValidation.js"> </script>
+    
 </body>
 
 </html>
