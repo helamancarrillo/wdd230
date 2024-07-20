@@ -1,0 +1,68 @@
+
+{
+    "member": [
+      {
+        "name": "Vesa",
+        "addres": "Lomas del Guijarro",
+        "phone": "+(504) 3358-6294",
+        "website": "https://www.vesamotors.com/",
+        "image": "https://mir-s3-cdn-cf.behance.net/projects/404/4432eb151988733.Y3JvcCwxMDEzLDc5Miw0NTMsMTQy.png",
+        "membership": "Golden Membership"
+      },
+
+      {
+        "name": "Torreo",
+        "addres": "Avenida Enrique Galvan",
+        "phone": "+(504) 3158-9418",
+        "website": "https://torreohn.avanceingenieros.com/",
+        "image": "https://mexiconewsdaily.com/wp-content/uploads/2024/03/mathew-schwartz-7YiZKj9A3DM-unsplash.jpg",
+        "membership": "Silver Membership"
+      },
+
+      {
+        "name": "AG Designs",
+        "addres": "Lomas del Guijarro",
+        "phone": "+(504) 2263-8774",
+        "website": "http://agdesignshn.com/",
+        "image": "https://images.squarespace-cdn.com/content/v1/51edd4cfe4b0cfede2170bbe/1421181212942-D7LFYW0UU4CJCUNHJ8PV/logo+ag.png?format=750w",
+        "membership": "Bronze Membership"
+      },
+
+      {
+        "name": "Capilea",
+        "addres": "Lomas del Guijarro",
+        "phone": "+(504) 9351-3575",
+        "website": "https://capilea.hn/",
+        "image": "https://capilea.hn/wp-content/uploads/2023/07/Group-2.svg",
+        "membership": "NP Membership"
+      },
+
+      {
+        "name": "PlayMax",
+        "addres": "Lomas del Guijarro",
+        "phone": "+(504) 9380-3793",
+        "website": "https://www.playmax.hn/",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1-DnbTzxX9BR7vQgG-pYZhlk3CoTQPa3_Q&s",
+        "membership": "Golden Membership"
+      },
+
+      {
+        "name": "La Colonia",
+        "addres": "Lomas del Guijarro",
+        "phone": "+(504) 2216-1900",
+        "website": " https://www.lacolonia.com/",
+        "image": "https://s3-eu-west-1.amazonaws.com/cdn1.mullenlowegroup.com/uploads/sites/52/2015/02/la-colonia-logo-298x166.jpg",
+        "membership": "Silver Membership"
+      },
+
+      {
+        "name": "Gyros",
+        "addres": "Lomas del Guijarro",
+        "phone": "+(504) 3188-9586",
+        "website": "https://www.migyros.com/",
+        "image": "https://www.tri-facil.com/admin/images/contenidos/empresas/logo/6fYuP8y2M2ZEYX8K5vWi.jpg",
+        "membership": "Bronze Membership"
+      }
+
+    ]
+}

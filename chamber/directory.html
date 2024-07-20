@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home Page - MDC Chamber of Commerce</title>
+
+    <meta name="description"
+        content="MDC Home Page - Provide a space where the most essential information of the Chamber is displayed.">
+    <meta name="author" content="Helaman Carrillo">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/MDC-Icon.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/large.css">
+
+    <meta property="og:title" content="MDC Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://d26m4ikkajfmz.cloudfront.net/wp-content/uploads/2023/09/Tegucigalpa-FM-Honduras-696x414.jpg">
+    <meta property="og:url" content="https://helamancarrillo.github.io/wdd230/chamber">
+
+
+</head>
+<body>
+
+    <header>
+
+        <img src="images/MDC-Icon.svg" id="Icon" alt="MDC Chamber Logo">
+        <!--<span>MDC Chamber <br>of Commerce</span> --> 
+
+    
+    </header>
+
+    <nav id="animateme">
+        <button id="menu"></button>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li class="current-menu-item"><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    
+    <main id="dynamic">
+        <div class="skip" id="visit-message"></div>
+        <div class="menuB">
+            <button id="gridB">⏹️ Grid</button>
+            <button id="listB">📄 List</button>
+        </div>
+        <hr>
+        <article id="displayB" class="gridB">
+            <h2>Directory</h2>
+            <!-- Sections for member data will be dynamically added here -->
+            
+        </article>
+    </main>
+
+
+    <footer>
+        <p> ©2024 Helaman Carrillo Honduras </p>
+        <p id="lastModified"></p>
+    </footer>
+
+
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/directory.js"></script>
+    
+</body>
+</html>

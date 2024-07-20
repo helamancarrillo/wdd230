@@ -371,6 +371,30 @@ figure figcaption{
     background-color: #fff;
 }
 
+/* Directory Page Stuff */ 
+
+
+article.gridB section {
+    width: 100%;
+    margin: 5px auto;
+  }
+
+  article.gridV section img {
+    width: 70%;
+    height: auto;
+    border-radius: 35px;
+  }
+
+  article.listV section img {
+    display: none;
+  }
+
+  article.listB section div {
+    display: block;
+  }
+
+
+
 
  
 
