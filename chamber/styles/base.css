@@ -79,7 +79,7 @@ nav {
 }
 
 li.current-menu-item a {
-    background-color: rgb(118, 163, 21);
+    background-color: rgb(118, 163, 21);      
 }
 
 nav {
@@ -373,34 +373,134 @@ figure figcaption{
 
 /* Directory Page Stuff */ 
 
+#main-directory{
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr;
 
-article.gridB section {
-    width: 100%;
-    margin: 5px auto;
-  }
+    margin: 0 auto;
+	padding: 0.5rem;
+	
+	background-color: rgb(220, 221, 225);
+	font-family: Roboto, Helvetica, sans-serif;
+}
 
-  article.gridV section img {
-    width: 70%;
-    height: auto;
-    border-radius: 35px;
-  }
+#center{
+    
+    grid-column: 2 / 3;
+    margin-bottom: 30px;
+    
+     
+      
+}
 
-  article.listV section img {
-    display: none;
-  }
+#main-directory h1{
+    color: navy;
+}
 
-  article.listB section div {
-    display: block;
-  }
+.menuD{
+    margin: 1rem auto;
+    padding: 0.5rem;
+    text-align: center;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 130px 130px ;
+    
+}
 
+.menuD button {
+	padding: 1rem;
+	font-weight: 700;
+    align-content: center;
+    margin: 5px;
+}
 
+.inside-Direct {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: .5rem;
+	background-color: #fff;
 
+}
 
- 
+.gridC {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
 
+.gridC section {
+	text-align: center;
+}
 
+.gridC img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+}
 
+.gridC section > * {
+	margin: 0.1rem;
+}
 
+.gridC h3 {
+	font-family: "Caveat", cursive;
+}
+
+.listB {
+	display: flex;
+	flex-direction: column;
+}
+
+.listB section {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.listB section > * {
+	margin: 0 1rem;
+}
+
+.listB section img {
+	display: none; /* smaller viewports only */
+}
+
+.listB section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.listB section:nth-child(even) {
+	background-color: rgb(146, 187, 234);
+}
+
+.inside-Direct h3 {
+	font-size: 1.5rem;
+}
+
+.inside-Direct p {
+    padding: 10px;
+	font-weight: 600;
+	font-size: smaller;
+}
+
+.inside-Direct a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.85rem;
+	color: navy;
+	letter-spacing: 1.1pt;
+}
+
+img {
+	height: 75px;
+	max-width: 100%;  
+}
+
+#MDC-title{
+    
+     
+     
+}
 
 
 
