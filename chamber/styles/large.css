@@ -134,6 +134,30 @@
         
     }
 
+    /* Footer Chamber */ 
+    footer{
+        padding: 2rem;
+        background: #fff;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+         
+    }
+
+    #myInfo{
+        grid-column: 2 / 3;
+        grid-row: 1 /2;
+    }
+
+    footer img {
+        justify-self: center;
+        width: 50%;
+        height: auto;
+        grid-column: 3 / 4;
+        grid-row: 1 /2;
+    }
+
+
+
    
 
 

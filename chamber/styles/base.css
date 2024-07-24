@@ -37,8 +37,7 @@ main {
 footer{
     padding: 2rem;
     background: #fff;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+     
 }
 
 footer img {
