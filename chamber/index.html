@@ -34,7 +34,7 @@
     <header>
 
         <img src="images/MDC-Icon.svg" id="Icon" alt="MDC Chamber Logo">
-        <!--<span>MDC Chamber <br>of Commerce</span> --> 
+        <span>MDC Chamber <br>of Commerce</span> 
 
     
     </header>
@@ -54,12 +54,17 @@
 
         <div>
 
+            <div id="banner" class="banner">
+                <p>Attend our <strong>Meet & Greet</strong> on Wednesday at 7:00 p.m.</p>
+                <button id="closeB" aria-label="Close banner">❌</button>
+            </div>
+
         
             <div class="box" id="box1">
     
                 <img src="images/hero-image.webp" id="hero" alt="Spectacular MDC leaders">
                 <p id="letters"><strong>Where entrepreneurs go to the next level</strong></p>
-                <input id="homereal"  type="button" value="JOIN US" onclick="location.href='#'">
+                <input id="homereal"  type="button" value="JOIN US" onclick="location.href='join.html'">
                 
             </div>
     
@@ -68,13 +73,20 @@
 
                 <div id="box23">
 
-                    <section > 
+                    <section class="padding" > 
                         <h3>Networking Party</h3>
+                        <br>
                         <p>Bring together all AI enterprenuers in Tegucigalpa. </p>
+                        <br>
+                        <img src="images/networking-party-webp-final.webp" id="netParty" alt="Networking Party">
                     </section>
-                    <section>
+                    <section class="padding">
                         <h3>Startup Financing</h3>
+                        <br>
                         <p>Demonstrate your startup has what it takes. </p>
+                        <br>
+                        <img src="images/financing-web(1).webp" id="finanH" alt="Financing">
+                        
                     </section>
 
                 </div>
@@ -89,17 +101,26 @@
 
                 <div id="box33">
 
-                    <section > 
-                        <h3>Benefit from SamSan Tech</h3>
-                        <p>Today SamSan Tech is giving away 100 free courses. Hurry up to obtain yours! </p>
+                    <section class="padding"> 
+                        <h3>Torreo</h3>
+                        <br>
+                        <p> Torreo is opening 100 houses in Lomas del Guijarro. Hurry up to obtain yours! </p>
+                        <br>
+                        <img src="images/torreo-open-webp.webp" id="openH" alt="Open House">
                     </section>
-                    <section>
-                        <h3>Know Carrillo Tech!</h3>
-                        <p>Carrillo Tech is opening 10 sites for senior developers in the Bay Area.  </p>
+                    <section class="padding">
+                        <h3>Vesa</h3>
+                        <br>
+                        <p> Vesa is showcasing the new Tesla Model Y. Visit Galerias to give it a try!</p>
+                        <br>
+                        <img src="images/tesla66.webp" id="teslaH" alt="Tesla Model Y">
                     </section>
-                    <section>
-                        <h3>Sillow Talk</h3>
-                        <p> Sillow Talk is offering only today a setup to all alumni finishing their certificates. </p>
+                    <section class="padding">
+                        <h3>AG Designs</h3>
+                        <br>
+                        <p> AG Designs is offering free house designings for the first 10 clients who attend today.  </p>
+                        <br>
+                        <img src="images/AG-designs-webp.webp" id="designH" alt="Design Process">
                     </section>
 
                 </div>
@@ -109,28 +130,54 @@
                 
 
             <div class="box" id="box4"> 
-                <h2>Weather</h2>
+                <h2>Forecast</h2>
 
                 <div id="box44">
-                    <div>
-                        <p>Temperature: 22°C</p>
-    
+
+                    <div class="todayTemp">
+                        <h3>Today</h3>
+                        <br>
+                        <img src="https://openweathermap.org/img/w/03d.png" alt="few clouds">
+                        <br>
+                        <p id="current-des"></p>
+                        <br>
+                        <p id="current-temp"></p>
                     </div>
-                    <div>
-                        <p>Humidity: 12% </p>
-    
+                    <br><br><br>
+                
+                    <div  class="todayTemp"  >
+                        <h3 id="first-date">.</h3>
+                        <br>
+                        <img src="https://openweathermap.org/img/wn/10d.png" alt="few clouds">
+                        <br>
+                        <p id="first-temp"></p>
                     </div>
-                    <div>
-                        <p>Season: Spring</p>
-    
+                    <br><br><br>
+
+
+                    <div  class="todayTemp"  >
+                        <h3 id="second-date">.</h3>
+                        <br>
+                        <img src="https://openweathermap.org/img/wn/10d.png" alt="few clouds">
+                        <br>
+                        <p id="second-temp"></p>
                     </div>
+                    <br><br><br>
+
+
+                    <div   class="todayTemp"  >
+                        <h3 id="third-date">.</h3>
+                        <br>
+                        <img src="https://openweathermap.org/img/wn/10d.png" alt="few clouds">
+                        <br>
+                        <p id="third-temp"></p>
+                    </div>
+
 
                 </div>
 
-
-                
-                
-            
+                </div>
+        
             </div>
     
         </div>
@@ -144,7 +191,9 @@
     </footer>
 
 
-    <script src="scripts/nav.js">
-    </script>
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/weatherMDC.js"></script>
+    <script src="scripts/banner.js"></script>
+    
 </body>
 </html>

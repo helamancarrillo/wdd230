@@ -21,11 +21,11 @@ header {
     align-items: center;
 }
 
-header span{
+/*header span{
     position: absolute;
     left: 12vw;
     
-}
+} */ 
 
 main {
     padding: 2rem;
@@ -54,7 +54,7 @@ footer{
 
 .navbar a:hover {
     background-color: rgb(84, 165, 246);
-    ;
+    
 }
 
 /* Navigation Stuff */ 
@@ -140,8 +140,9 @@ div{
     justify-content: center;
     flex-direction: column;
     color: #fff;
-    text-decoration: underline orange;
+   
     padding: 15px;
+    margin: 15px;
     
     
 }
@@ -152,14 +153,112 @@ div{
     padding: 10px;
 }
 
+/* Box2 Stuff */
+
 #box2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: #fff;
     text-align: center;
-    padding: 30px;
+     
     
+}
+ 
+#box2 h2 {
+    padding-top: 65px;
+}
+
+#box2 #box23{
+    padding: 80px;
+    
+
+}
+
+#netParty, #finanH{
+    max-width: 80%;
+    height: auto;
+    justify-content: center;
+}
+
+/* Box3 Stuff */
+
+#box3 h2 {
+    padding-top: 65px;
+}
+
+#box3 #box33{
+    padding: 80px;
+    
+}
+
+.padding{
+    margin: 25px;
+}
+
+#openH, #teslaH, #designH{
+    max-width: 80%;
+    height: auto;
+    justify-content: center;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#openH:hover, #teslaH:hover, #designH:hover{
+    transform: rotate(360deg);
+
+     
+}
+
+/* Box4 Stuff */
+
+figure .home{
+    margin: 0px;
+}
+
+#box4 h2 {
+    padding-top: 65px;
+}
+
+#box4 #box44{
+    padding: 80px;
+    
+}
+
+.todayTemp img{
+    width: 55px;
+    height: 55px;
+    align-self: center;
+}
+
+/* Banner Stuff */
+
+.banner {
+    background-color: rgb(255, 230, 0);
+    padding: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+.banner button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.hidden {
+    display: none;
+  }
+
+header span{
+    display: none;
+    
+    
+     
 }
 
 #box3{
@@ -168,7 +267,7 @@ div{
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    padding: 15px;
+     
     
 }
 
@@ -178,10 +277,8 @@ div{
     justify-content: space-around;
     text-align: center;
     color: #fff;
-    padding: 15px;
-    
+    padding-top: 10px;
 
-    
 }
 
 #homereal {
@@ -194,10 +291,8 @@ div{
     position: relative;
     text-align: center;
     justify-self: center;
-    padding: 10px;
-
-
-
+    cursor: pointer;
+     
 }
 
 /* Discover Page Stuff */
@@ -275,6 +370,10 @@ figure figcaption{
 .join-grid{
     margin: 50px;
 
+}
+
+#title-join{
+    color: rgb(14, 33, 112);
 }
 
 
@@ -376,12 +475,10 @@ figure figcaption{
 #main-directory{
     display: grid;
     grid-template-columns: .5fr 1fr .5fr;
-
     margin: 0 auto;
 	padding: 0.5rem;
-	
 	background-color: rgb(220, 221, 225);
-	font-family: Roboto, Helvetica, sans-serif;
+	 
 }
 
 #center{
@@ -496,11 +593,6 @@ img {
 	max-width: 100%;  
 }
 
-#MDC-title{
-    
-     
-     
-}
 
 
 
